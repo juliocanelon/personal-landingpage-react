@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Layout, Menu, Drawer, Button, Typography } from 'antd';
+import { Layout, Menu, Drawer, Button, Typography, Grid } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import ThemeToggle from './ThemeToggle';
-import { useBreakpoint } from 'antd/es/grid/hooks';
+
+const { useBreakpoint } = Grid;
 
 const { Header } = Layout;
 
